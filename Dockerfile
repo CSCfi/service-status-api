@@ -2,10 +2,15 @@ FROM node:24-alpine AS builder
 
 WORKDIR /app
 COPY package*.json ./
-RUN npm ci
+COPY pnpm-*.yaml ./
 
 COPY . .
-RUN npm run build
+
+RUN npm i -g pnpm
+
+RUN pnpm i --force
+
+RUN pnpm -r build
 
 FROM node:24-alpine AS runner
 
