@@ -6,8 +6,8 @@ RUN corepack enable
 
 FROM base AS prod
 
-COPY package*.json ./app
-COPY pnpm-*.yaml ./app
+COPY package*.json ./
+COPY pnpm-*.yaml ./
 WORKDIR /app
 
 RUN pnpm fetch --prod
