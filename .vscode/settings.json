@@ -1,0 +1,21 @@
+{
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+  "oxc.enable": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#6a4ebe",
+    "activityBar.background": "#6a4ebe",
+    "activityBar.foreground": "#fff",
+    "activityBar.activeBorder": "#a600ff",
+    "activityBar.inactiveForeground": "#ccc",
+    "activityBarBadge.background": "#a600ff",
+    "sash.hoverBorder": "#6a4ebe",
+    "editorGroup.border": "#6a4ebe",
+    "panel.border": "#6a4ebe",
+    "sideBar.border": "#6a4ebe",
+    "tab.activeBorder": "#a600ff",
+    "tab.activeBackground": "#a600ff1a",
+    "panelTitle.activeBorder": "#a600ff"
+  }
+}
